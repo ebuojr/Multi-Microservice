@@ -13,6 +13,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Catalog\Cata
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{13F3D34A-7E7A-44F6-8B48-3B6218AA020A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{C02BDE10-07E4-41DD-856F-F1BEBF3F388B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBusRabbitMQ", "Catalog\Common\ClassLibrary1\EventBusRabbitMQ.csproj", "{B0154B84-A283-4015-92B9-0D7AC1FAB495}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{0D4C8C92-13E0-4ADF-82CF-96F70B92AEFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +37,10 @@ Global
 		{13F3D34A-7E7A-44F6-8B48-3B6218AA020A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13F3D34A-7E7A-44F6-8B48-3B6218AA020A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13F3D34A-7E7A-44F6-8B48-3B6218AA020A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0154B84-A283-4015-92B9-0D7AC1FAB495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0154B84-A283-4015-92B9-0D7AC1FAB495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0154B84-A283-4015-92B9-0D7AC1FAB495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0154B84-A283-4015-92B9-0D7AC1FAB495}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +48,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BF77657F-C10A-4F47-90CC-C5992CF25B89} = {328D5857-61F3-4029-997A-2CB0D018F160}
 		{9D1B068E-1972-4C01-B497-17740D7183F0} = {ACCD4EC4-E739-4986-999C-C9B012FD694F}
+		{B0154B84-A283-4015-92B9-0D7AC1FAB495} = {C02BDE10-07E4-41DD-856F-F1BEBF3F388B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {604A00E2-D80E-4A4B-A7BE-71E351A7B076}
